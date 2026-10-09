@@ -14,7 +14,7 @@ import com.skillswap.service.MatchingService;
 
 @RestController
 @RequestMapping("/api/matching")
-@CrossOrigin(origins = "http://localhost:5175")
+@CrossOrigin(origins = "https://24eg107e32.netlify.app/")
 public class MatchingController {
 
     private final MatchingService matchingService;

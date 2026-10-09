@@ -11,7 +11,7 @@ import com.skillswap.service.SessionService;
 
 @RestController
 @RequestMapping("/api/sessions")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://24eg107e32.netlify.app/")
 public class SessionController {
 
     private final SessionService sessionService;
