@@ -12,7 +12,7 @@ import com.skillswap.service.AuthService;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "https://24eg107e32.netlify.app/")
+@CrossOrigin(origins = "https://24eg107e32.netlify.app")
 public class AuthController {
 
     private final AuthService authService;

@@ -18,7 +18,7 @@ import com.skillswap.service.UserService;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins = "https://24eg107e32.netlify.app/")
+@CrossOrigin(origins = "https://24eg107e32.netlify.app")
 public class UserController {
 
     private final UserService userService;

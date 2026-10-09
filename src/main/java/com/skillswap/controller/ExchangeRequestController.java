@@ -18,7 +18,7 @@ import com.skillswap.service.ExchangeRequestService;
 
 @RestController
 @RequestMapping("/api/exchange-requests")
-@CrossOrigin(origins = "https://24eg107e32.netlify.app/")
+@CrossOrigin(origins = "https://24eg107e32.netlify.app")
 public class ExchangeRequestController {
 
     private final ExchangeRequestService exchangeRequestService;

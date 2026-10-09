@@ -18,7 +18,7 @@ import com.skillswap.service.SkillService;
 
 @RestController
 @RequestMapping("/api/skills")
-@CrossOrigin(origins = "https://24eg107e32.netlify.app/")
+@CrossOrigin(origins = "https://24eg107e32.netlify.app")
 public class SkillController {
 
     private final SkillService skillService;
