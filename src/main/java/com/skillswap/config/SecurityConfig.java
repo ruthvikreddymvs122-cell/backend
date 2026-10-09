@@ -47,7 +47,7 @@ public class SecurityConfig {
 
         CorsConfiguration configuration = new CorsConfiguration();
 
-        configuration.setAllowedOrigins(
+        configuration.setAllowedOriginsPatterns(
             List.of("https://24eg107e32.netlify.app")
         );
 
